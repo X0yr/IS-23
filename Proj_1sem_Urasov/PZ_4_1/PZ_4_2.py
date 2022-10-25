@@ -5,5 +5,4 @@ try:
         if (N%B)\2=0:
            print('True')
         break
-    else:
-        B*10
+    else
