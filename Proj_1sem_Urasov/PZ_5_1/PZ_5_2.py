@@ -1,23 +1,23 @@
-def SortInc3(A, B, C):
-    if C<B<A:
-        A, B, C=C, B, A
-        print(A, B, C)
-    elif A<B<C:
-        print(A, B, C)
-    elif B<C<A:
-        A, B, C=B, C, A
-        print(A, B, C)
-    elif B<A<C:
-        A, B, C=B, A, C
-        print(A, B, C)
-    elif A<C<B:
-        A, B, C=A, C, B
-        print(A, B, C)
-    else:
-        A, B, C=C, A, B
-        print(A, B, C)
+def SortInc3(A, B, C): #Создание функции
+    if C<B<A: #условие
+        A, B, C=C, B, A #Заменна данных в переменных
+        print(A, B, C) #вывод переменных
+    elif A<B<C: #условие
+        print(A, B, C) #вывод переменных
+    elif B<C<A: #условие
+        A, B, C=B, C, A #Заменна данных в переменных
+        print(A, B, C) #вывод переменных
+    elif B<A<C: #условие
+        A, B, C=B, A, C #Заменна данных в переменных
+        print(A, B, C) #вывод переменных
+    elif A<C<B: #условие
+        A, B, C=A, C, B #Заменна данных в переменных
+        print(A, B, C) #вывод переменных
+    else: #если не выполняется условие
+        A, B, C=C, A, B #Заменна данных в переменных
+        print(A, B, C) #вывод переменных
 
-A=int(input())
-B=int(input())
-C=int(input())
-SortInc3(A, B, C)
+A=int(input('Введите целое число')) #Ввод переменной
+B=int(input('Введите целое число')) #Ввод переменной
+C=int(input('Введите целое число')) #Ввод переменной
+SortInc3(A, B, C) #вызов функции
