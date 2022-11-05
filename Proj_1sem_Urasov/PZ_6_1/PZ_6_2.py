@@ -1,3 +1,4 @@
+import random
 try:
     N=int(input('введите число >>> '))
     a=[]
@@ -5,7 +6,7 @@ try:
     while y<N:
         a.append(random.randint(1, 100))
         y+=1
-    K=int(input('введите число от 1 до 100 >>> '))
+    K=int(input('введите число от 1 до предыдущего введённго числа >>> '))
     B=[]
     j=0
     while j < N:
@@ -14,5 +15,6 @@ try:
     h=0
     B[K]=(sum(a))/K
     print(B)
+    print(B[K])
 except:
     print('Error')
