@@ -1,10 +1,9 @@
 import unittest
-# try:
-#     s=str(input("Введдите что-то >>>  "))
-#     s1=str(input("Введите ещё что-нибудь >>>  "))
-#     print(s.count(s1))
-# except ValueError as ve:
-#     print("")
+
+# s=str(input("Введдите что-то >>>  "))
+# s1=str(input("Введите ещё что-нибудь >>>  "))
+# print(s.count(s1))
+
 
 
 def colstr(s, s1):
