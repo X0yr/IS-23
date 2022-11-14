@@ -19,8 +19,8 @@ try: #обработчик исключений
        for p in range(j): #Создание цикла for
            s[p]+s[-1] #добавление к элементу под номером p последнего элемента списка
            p+=1
-       print(s)
-    else:
+       print(s) 
+    else: #выполняется при не соблюдении условия
        print(a)
-except ValueError as ve:
+except ValueError as ve: #исключение
     print('Не целочисленное', ve)
