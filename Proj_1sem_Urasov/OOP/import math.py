@@ -21,4 +21,4 @@ class Traingle:
 
 TriangleOne = Traingle(0, 0, 0)
 print(TriangleOne.type())
-print(TriangleOne.square())
+

@@ -15,4 +15,4 @@ class Person:
 
 PersonInf = Person("Иван", "Серов", 1)
 print(PersonInf.info1())
-print(PersonInf.destract())
+

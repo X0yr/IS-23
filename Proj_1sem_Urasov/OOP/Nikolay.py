@@ -15,4 +15,4 @@ class TraingleChacer():
 
 TriangleOne = TraingleChacer("YU", 0, 0)
 print(TriangleOne.is_triangle())
-print(type(str))
+
