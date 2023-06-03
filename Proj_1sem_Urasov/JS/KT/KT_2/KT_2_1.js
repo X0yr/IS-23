@@ -5,4 +5,4 @@ if(x > 4){
 else{
     y=7-x;
 }
-console.log("Результат = " + y)
+console.log("Результат = "+y)
