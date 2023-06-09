@@ -1,9 +1,9 @@
 function btnClick(){
-    let Tex1 = ""
-    let Tex2 = ""
-    Tex1 = KT_3_1.Test.tx1
-    Tex2 = KT_3_1.Test.tx2
-    KT_3_1.getElementById('ex1').innerHTML="<HR>"+
-    "Мне нравиться "+Tex1.bold() +
-    "с "+ Tex2.bold() + "цветом"+"<HR>"
+    let shape = document.getElementById('shape').value;
+    let color = document.getElementById('color').value;
+    let length = shape.length;
+
+    let messeg = 'Мне нравиться '+ shape + ', Цвета '+ color + '\n';
+    messeg += shape + ' - длинна '+ length;
+    alert(messeg);
 }

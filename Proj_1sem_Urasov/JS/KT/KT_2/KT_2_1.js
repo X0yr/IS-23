@@ -1,4 +1,4 @@
-let x = 10;
+let x = 2;
 if(x > 4){
     y = x*x;
 }
